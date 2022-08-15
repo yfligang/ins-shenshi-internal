@@ -9,7 +9,8 @@ public class Learn0003 {
         //learn0003.testSplit02();
         //learn0003.testSplit03();
         //learn0003.testSplit04();
-        learn0003.testSplit05();
+        //learn0003.testSplit05();
+        learn0003.testSplit06();
     }
 
     public static void testSplit01(){
@@ -77,5 +78,18 @@ public class Learn0003 {
              ) {
             System.out.print("新的" + str01 + " ");
         }
+    }
+
+    public void testSplit06(){
+        String str = "!2#4%6&8()&^456#@!12345";
+        //打印出char[]数组中的字符
+
+        String guize = "[0-9]"; //数字0-9
+
+        //新的字符串将老字符串中的数字替换为 *即可
+
+        String strNew = str.replaceAll(guize,"*");
+
+        System.out.println(strNew);
     }
 }
