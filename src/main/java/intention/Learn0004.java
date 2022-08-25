@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Learn0004 {
+
     //取IP地址(192.168.1.100)中的每段数字
     public static void main(String[] args){
         String l = "123:345:567";
@@ -31,6 +32,8 @@ public class Learn0004 {
         Learn0004 learn0004 = new Learn0004();
         learn0004.test01();
 
+        Learn0004.method02();
+
     }
 
     public void test01(){
@@ -45,5 +48,9 @@ public class Learn0004 {
 //                list.add(strArray[i]);
 //            }
 //        }
+    }
+
+    public static void method02(){
+        System.out.println("1");
     }
 }
