@@ -20,7 +20,7 @@ public class Learn0008 {
                 new Learn0008("0")
                 );
         Learn0008[] array = new Learn0008[list.size()];
-        list.toArray(array);
+        array = list.toArray(array);
 
         for (int i = 0; i < array.length; i++) {
             System.out.println(array[i]);
