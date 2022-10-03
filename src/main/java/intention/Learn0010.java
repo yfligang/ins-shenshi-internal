@@ -10,4 +10,10 @@ public class Learn0010 {
         this.age = age;
         this.name = name;
     }
+
+    public int cool(int age,String name){
+        this.age = age;
+        this.name = name;
+        return age;
+    }
 }
