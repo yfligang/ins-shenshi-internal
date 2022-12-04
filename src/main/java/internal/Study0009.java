@@ -18,6 +18,8 @@ public class Study0009 {
              ) {
             System.out.print(ch);
         }
+
+
     }
     
 }
